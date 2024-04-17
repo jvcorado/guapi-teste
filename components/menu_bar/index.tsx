@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function MenuBar() {
   return (
-    <div className="px-3 flex gap-3 sticky bottom-0 z-50 items-center justify-between bg-white py-5">
+    <div className="px-3 flex gap-3 sticky bottom-0 pb-3 z-50 items-center justify-between bg-white py-5">
       <Link href={"/"}>
         <Image src={Home} alt="Home icon" />
       </Link>
