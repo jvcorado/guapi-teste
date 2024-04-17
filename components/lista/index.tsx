@@ -50,7 +50,7 @@ export default function Lista() {
 
   return (
     <>
-      <div className="flex flex-col gap-4 pb-5 w-full max-w-screen-sm overflow-x-auto scroll">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-5 w-full max-w-screen-sm md:max-w-md overflow-x-auto scroll">
         {Data.map((item, index) => {
           return (
             <div

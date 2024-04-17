@@ -34,19 +34,25 @@ const Data: DataProps[] = [
   {
     image: Elipse3,
   },
+  {
+    image: Elipse2,
+  },
+  {
+    image: Elipse3,
+  },
 ];
 
 export default function Carousel() {
   return (
     <>
-      <div className="flex gap-4  w-full max-w-screen-sm overflow-x-auto scroll">
+      <div className="flex gap-4 w-full max-w-screen-sm md:max-w-screen-md overflow-x-auto scroll">
         {Data.map((item, index) => {
           return (
             <Image
               key={index}
               src={item.image}
               alt="image"
-              className="w-[80px] h-[80px]"
+              className="w-[80px] h-[80px] md:w-full md:h-full"
             />
           );
         })}

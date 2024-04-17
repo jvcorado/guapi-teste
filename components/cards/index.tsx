@@ -10,17 +10,15 @@ export default function Cards() {
     <div className="flex flex-col gap-3">
       <div className="flex justify-between bg-slate-400 gap-3">
         <div className="bg-[#FFF7AC] flex  justify-between rounded-lg shadow-xl w-1/2">
-          <h1 className="self-start p-2 text-black  bg-slate-800">
+          <h1 className="self-start p-2 text-black font-semibold  md:text-base md:p-3">
             Gastronomia
           </h1>
-          <Image
-            src={Group}
-            alt="image group"
-            className="object-cover  bg-slate-700 "
-          />
+          <Image src={Group} alt="image group" className="object-cover" />
         </div>
         <div className="bg-[#E0E3FF] flex flex-col justify-between rounded-lg shadow-xl w-1/2">
-          <h1 className="self-start p-2 text-black">Entretenimento</h1>
+          <h1 className="self-start p-2 text-black font-semibold md:text-base md:p-3">
+            Entretenimento
+          </h1>
           <Image
             src={Cinema}
             alt="image cinema"
