@@ -55,25 +55,27 @@ export default function Lista() {
           return (
             <div
               key={index}
-              className="flex shadow-lg border-2 items-center justify-between  rounded-xl pe-3 w-full"
+              className="flex shadow-lg border-2 items-center justify-between   rounded-xl pe-3 w-full"
             >
               <Image
                 src={item.image}
                 alt="image"
                 className="object-cover rounded-lg w-[110px]"
               />
-              <div className="">
-                <h1 className="text-black font-semibold text-[13px]">
+              <div className="flex flex-col gap-1">
+                <h1 className="text-black font-semibold text-[13px] md:text-sm">
                   Nome do Estabelecimento
                 </h1>
                 <div className="flex items-center gap-2">
                   <Image src={Star} alt="star" />
-                  <p className="text-[#FFB746] text-[13px]">5.0</p>
-                  <p className="text-[#959595] text-[13px]">
+                  <p className="text-[#FFB746] text-[13px] md:text-sm">5.0</p>
+                  <p className="text-[#959595] text-[13px] md:text-sm">
                     Categoria - Localidade
                   </p>
                 </div>
-                <p className="text-black font-normal  text-[13px]">Descrição</p>
+                <p className="text-black font-normal  text-[13px] md:text-sm">
+                  Descrição
+                </p>
               </div>
               <button onClick={() => handleButtonClick(index)} className="">
                 <svg

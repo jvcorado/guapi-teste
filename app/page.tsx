@@ -8,7 +8,7 @@ import Parceiros from "@/components/parceiros";
 
 export default function Home() {
   return (
-    <div className="container mx-auto flex flex-col  justify-between lg:max-w-[470px]  bg-white">
+    <div className="container mx-auto flex flex-col  justify-between lg:max-w-[800px]  bg-white">
       <Header />
       <div className="px-3 flex-1 flex flex-col gap-7  h-full ">
         <Carousel />

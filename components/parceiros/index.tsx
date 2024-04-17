@@ -40,11 +40,11 @@ const Data: DataProps[] = [
 export default function Parceiros() {
   return (
     <>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[35%] md:text-lg">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[35%] md:text-2xl md:w-[25%]">
         Parceiros <span className="text-[#FF6D1D]">Quack</span>
       </h1>
 
-      <div className="flex gap-4 pb-0 w-full max-w-screen-sm overflow-x-auto scroll ">
+      <div className="flex gap-4 pb-0 w-full max-w-screen-sm md:max-w-screen-md overflow-x-auto scroll ">
         {Data.map((item, index) => {
           return (
             <Image
@@ -56,7 +56,7 @@ export default function Parceiros() {
           );
         })}
       </div>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[100%] md:text-lg">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[100%] md:text-2xl md:w-[70%]">
         Estabelecimentos disponíveis no{" "}
         <span className="text-[#FF6D1D]">Clube Quack</span>
       </h1>
