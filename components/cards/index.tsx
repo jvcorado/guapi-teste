@@ -9,14 +9,14 @@ export default function Cards() {
   return (
     <div className="flex flex-col gap-3">
       <div className="grid max-[375px]:grid-cols-1  grid-cols-2  justify-between gap-5">
-        <div className="bg-[#FFF7AC] flex relative  justify-between rounded-lg shadow-xl ">
+        <div className="bg-[#FFF7AC] flex  relative  justify-between rounded-lg shadow-xl ">
           <p className="self-start relative top-1 left-2  text-black font-semibold md:text-2xl md:p-3">
             Gastronomia
           </p>
           <Image
             src={Group}
             alt="image group"
-            className="object-cover   rounded-e-lg"
+            className="object-cover  rounded-e-lg"
           />
         </div>
         <div className="bg-[#E0E3FF] flex flex-col  relative   justify-between rounded-lg shadow-xl  ">
@@ -26,7 +26,7 @@ export default function Cards() {
           <Image
             src={Cinema}
             alt="image cinema"
-            className="object-cover self-end  rounded-e-lg  max-[436px]:h-[70px] h-[50px] md:object-bottom md:h-full"
+            className="object-cover self-end  rounded-e-lg  max-[375px]:h-[70px] h-[50px] md:object-bottom md:h-full"
           />
         </div>
       </div>
