@@ -46,7 +46,7 @@ export default function Carousel() {
               key={index}
               src={item.image}
               alt="image"
-              className="w-[75px] h-[75px]"
+              className="w-[80px] h-[80px]"
             />
           );
         })}

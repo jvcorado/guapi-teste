@@ -27,30 +27,36 @@ const Data: DataProps[] = [
     image: Elipse5,
   },
   {
-    image: Elipse6,
+    image: Elipse5,
+  },
+  {
+    image: Elipse5,
+  },
+  {
+    image: Elipse5,
   },
 ];
 
 export default function Parceiros() {
   return (
     <>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] ">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[31.5%]">
         Parceiros <span className="text-[#FF6D1D]">Quack</span>
       </h1>
 
-      <div className="flex gap-4 pb-0 w-full max-w-screen-sm overflow-x-auto scroll">
+      <div className="flex gap-4 pb-0 w-full max-w-screen-sm overflow-x-auto scroll ">
         {Data.map((item, index) => {
           return (
             <Image
               key={index}
               src={item.image}
               alt="image"
-              className="w-[75px] h-[75px]"
+              className="w-[80px] h-[80px]"
             />
           );
         })}
       </div>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] ">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[90%]">
         Estabelecimentos disponíveis no{" "}
         <span className="text-[#FF6D1D]">Clube Quack</span>
       </h1>

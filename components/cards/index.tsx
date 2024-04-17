@@ -8,17 +8,23 @@ import Pato from "../../assets/image/cards/Pato.png";
 export default function Cards() {
   return (
     <div className="flex flex-col gap-3">
-      <div className="grid grid-cols-2 gap-3 min-h-[90px]">
-        <div className="bg-[#FFF7AC] flex justify-between rounded-lg shadow-xl">
-          <h1 className="self-start p-2 text-black">Gastronomia</h1>
-          <Image src={Group} alt="image group" className="rounded-lg " />
+      <div className="flex justify-between bg-slate-400 gap-3">
+        <div className="bg-[#FFF7AC] flex  justify-between rounded-lg shadow-xl w-1/2">
+          <h1 className="self-start p-2 text-black  bg-slate-800">
+            Gastronomia
+          </h1>
+          <Image
+            src={Group}
+            alt="image group"
+            className="object-cover  bg-slate-700 "
+          />
         </div>
-        <div className="bg-[#E0E3FF] flex flex-col   rounded-lg shadow-xl">
+        <div className="bg-[#E0E3FF] flex flex-col justify-between rounded-lg shadow-xl w-1/2">
           <h1 className="self-start p-2 text-black">Entretenimento</h1>
           <Image
             src={Cinema}
             alt="image cinema"
-            className="rounded-lg self-end object-cover"
+            className="object-contain self-end"
           />
         </div>
       </div>
@@ -47,11 +53,11 @@ export default function Cards() {
         </div>
         <div className="bg-[#FF6E1F] relative flex flex-col justify-between rounded-lg shadow-xl">
           <div className="flex gap-1">
-            <h1 className="p-2 text-sm">Seu Clube</h1>
+            <h1 className="p-2 text-sm text-white">Seu Clube</h1>
             <Image
               src={Pato}
               alt="image pato"
-              className="rounded-lg relative right-6 h-[80px] object-cover"
+              className="rounded-lg relative right-7 h-[80px] object-cover"
             />
           </div>
 

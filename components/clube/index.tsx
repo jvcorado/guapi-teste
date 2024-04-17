@@ -4,11 +4,11 @@ import Pato from "../../assets/image/cards/Pato-2x.png";
 export default function Clube() {
   return (
     <>
-      <div className="bg-[#FFA518] relative rounded-lg flex items-center gap-3 justify-between px-3">
+      <div className="bg-[#FFA518] relative rounded-lg text-white flex items-center gap-3 justify-between px-3">
         <div className="flex-1">
           <p className="text-[10px]">Assine já o</p>
           <p className="text-lg font-bold">Clube Quack</p>
-          <p className="text-[10px] leading-4">
+          <p className="text-[10px] leading-3">
             e tenha acesso em dobro as experiências
           </p>
         </div>
@@ -25,10 +25,10 @@ export default function Clube() {
           </button>
         </div>
       </div>
-      <div className="border p-1 text-center rounded-lg text-black shadow-2xl">
-        <p>
-          <span className="text-[#FF6D1D] text-sm">Clube Quack</span> ainda não
-          ativado para essa cidade
+      <div className="border p-1 text-center rounded-lg text-black shadow-lg">
+        <p className="text-[14px]">
+          <span className="text-[#FF6D1D] ">Clube Quack</span> ainda não ativado
+          para essa cidade
         </p>
       </div>
     </>

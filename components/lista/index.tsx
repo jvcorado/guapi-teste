@@ -55,7 +55,7 @@ export default function Lista() {
           return (
             <div
               key={index}
-              className="flex shadow-lg border items-center justify-between pe-5  rounded-lg"
+              className="flex shadow-lg border-2 items-center justify-between  rounded-xl pe-3 "
             >
               <Image
                 src={item.image}
@@ -63,19 +63,19 @@ export default function Lista() {
                 className="object-cover rounded-lg w-[110px]"
               />
               <div className="">
-                <h1 className="text-black font-semibold">
+                <h1 className="text-black font-semibold text-[13px]">
                   Nome do Estabelecimento
                 </h1>
                 <div className="flex items-center gap-2">
                   <Image src={Star} alt="star" />
-                  <p className="text-[#FFB746] text-sm">5.0</p>
-                  <p className="text-[#959595] text-sm">
+                  <p className="text-[#FFB746] text-[13px]">5.0</p>
+                  <p className="text-[#959595] text-[13px]">
                     Categoria - Localidade
                   </p>
                 </div>
-                <p className="text-black font-normal text-base">Descrição</p>
+                <p className="text-black font-normal  text-[13px]">Descrição</p>
               </div>
-              <button onClick={() => handleButtonClick(index)}>
+              <button onClick={() => handleButtonClick(index)} className="">
                 <svg
                   width="32"
                   height="32"
