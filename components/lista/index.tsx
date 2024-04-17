@@ -63,17 +63,17 @@ export default function Lista() {
                 className="object-cover rounded-lg w-[110px]"
               />
               <div className="flex flex-col gap-1">
-                <h1 className="text-black font-semibold text-[13px] md:text-sm">
+                <h1 className="text-black font-semibold text-[13px] ">
                   Nome do Estabelecimento
                 </h1>
                 <div className="flex items-center gap-2">
                   <Image src={Star} alt="star" />
-                  <p className="text-[#FFB746] text-[13px] md:text-sm">5.0</p>
-                  <p className="text-[#959595] text-[13px] md:text-sm">
+                  <p className="text-[#FFB746] text-[13px] ">5.0</p>
+                  <p className="text-[#959595] text-[13px] ">
                     Categoria - Localidade
                   </p>
                 </div>
-                <p className="text-black font-normal  text-[13px] md:text-sm">
+                <p className="text-black font-normal  text-[13px] ">
                   Descrição
                 </p>
               </div>
