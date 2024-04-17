@@ -34,7 +34,7 @@ const Data: DataProps[] = [
 export default function Parceiros() {
   return (
     <>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[31.5%]">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] ">
         Parceiros <span className="text-[#FF6D1D]">Quack</span>
       </h1>
 
@@ -50,7 +50,7 @@ export default function Parceiros() {
           );
         })}
       </div>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[88%]">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] ">
         Estabelecimentos disponíveis no{" "}
         <span className="text-[#FF6D1D]">Clube Quack</span>
       </h1>
