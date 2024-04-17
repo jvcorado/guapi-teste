@@ -9,8 +9,6 @@ import Foto5 from "../../assets/image/lista/Foto-5.png";
 import Foto6 from "../../assets/image/lista/Foto-6.png";
 import Star from "../../assets/image/lista/star-full.png";
 import { useState } from "react";
-/* import Hearth from "../../assets/image/icon/heart.svg";
-import Hearth from "../../assets/image/icon/heart.svg"; */
 
 interface DataProps {
   image: StaticImageData;
@@ -44,7 +42,6 @@ export default function Lista() {
 
   const handleButtonClick = (index: number) => {
     const newIconColors = [...iconColors];
-    // Se a cor atual for transparente, torna-a laranja, caso contrário, torna-a transparente
     newIconColors[index] =
       newIconColors[index] === "transparent" ? "#FFA500" : "transparent";
     setIconColors(newIconColors);
