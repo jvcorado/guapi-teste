@@ -51,7 +51,7 @@ export default function Parceiros() {
               key={index}
               src={item.image}
               alt="image"
-              className="w-[80px] h-[80px] md:h-full md:w-full"
+              className="w-[80px] h-[80px] md:h-[100px] md:w-[100px]"
             />
           );
         })}

@@ -50,12 +50,12 @@ export default function Lista() {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-5 w-full max-w-screen-sm md:max-w-md overflow-x-auto scroll">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-5 w-full max-w-screen-sm md:max-w-screen-md overflow-x-auto scroll">
         {Data.map((item, index) => {
           return (
             <div
               key={index}
-              className="flex shadow-lg border-2 items-center justify-between  rounded-xl pe-3 "
+              className="flex shadow-lg border-2 items-center justify-between  rounded-xl pe-3 w-full"
             >
               <Image
                 src={item.image}

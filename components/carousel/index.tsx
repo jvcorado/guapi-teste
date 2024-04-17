@@ -52,7 +52,7 @@ export default function Carousel() {
               key={index}
               src={item.image}
               alt="image"
-              className="w-[80px] h-[80px] md:w-full md:h-full"
+              className="w-[80px] h-[80px] md:w-[100px] md:h-[100px]"
             />
           );
         })}
