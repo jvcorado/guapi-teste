@@ -51,7 +51,7 @@ export default function Cards() {
             <Image
               src={Pato}
               alt="image pato"
-              className="rounded-lg relative right-5 h-[80px] object-cover"
+              className="rounded-lg relative right-4 h-[80px] object-cover"
             />
           </div>
 
