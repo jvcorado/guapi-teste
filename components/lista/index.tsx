@@ -1,7 +1,7 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import Foto1 from "../../assets/image/lista/Foto-1.png";
+/* import Foto1 from "../../assets/image/lista/Foto-1.png";
 import Foto2 from "../../assets/image/lista/Foto-2.png";
 import Foto3 from "../../assets/image/lista/Foto-3.png";
 import Foto4 from "../../assets/image/lista/Foto-4.png";
@@ -32,6 +32,44 @@ const Data: DataProps[] = [
   },
   {
     image: Foto6,
+  },
+]; */
+
+import Elipse1 from "../../assets/image/carousel/Ellipse-1.png";
+import Elipse2 from "../../assets/image/carousel/Ellipse-2.png";
+import Elipse3 from "../../assets/image/carousel/Ellipse-3.png";
+import Elipse4 from "../../assets/image/carousel/Ellipse-4.png";
+import Elipse5 from "../../assets/image/carousel/Ellipse-5.png";
+import { useState } from "react";
+
+interface DataProps {
+  image: StaticImageData;
+}
+
+const Data: DataProps[] = [
+  {
+    image: Elipse1,
+  },
+  {
+    image: Elipse2,
+  },
+  {
+    image: Elipse3,
+  },
+  {
+    image: Elipse4,
+  },
+  {
+    image: Elipse5,
+  },
+  {
+    image: Elipse1,
+  },
+  {
+    image: Elipse2,
+  },
+  {
+    image: Elipse3,
   },
 ];
 
