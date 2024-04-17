@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <div className=" flex flex-col  justify-between  bg-white">
       <Header />
-
       <div className="px-3 flex-1 flex flex-col gap-5  h-full ">
         <Carousel />
         <Cards />
