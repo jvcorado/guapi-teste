@@ -7,7 +7,7 @@ import Foto3 from "../../assets/image/lista/Foto-3.png";
 import Foto4 from "../../assets/image/lista/Foto-4.png";
 import Foto5 from "../../assets/image/lista/Foto-5.png";
 import Foto6 from "../../assets/image/lista/Foto-6.png";
-import Star from "../../assets/image/lista/star-full.png";
+
 import { useState } from "react";
 
 interface DataProps {
@@ -40,6 +40,7 @@ import Elipse2 from "../../assets/image/carousel/Ellipse-2.png";
 import Elipse3 from "../../assets/image/carousel/Ellipse-3.png";
 import Elipse4 from "../../assets/image/carousel/Ellipse-4.png";
 import Elipse5 from "../../assets/image/carousel/Ellipse-5.png";
+import Star from "../../assets/image/lista/star-full.png";
 import { useState } from "react";
 
 interface DataProps {
