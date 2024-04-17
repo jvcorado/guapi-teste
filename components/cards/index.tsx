@@ -8,7 +8,7 @@ import Pato from "../../assets/image/cards/Pato.png";
 export default function Cards() {
   return (
     <div className="flex flex-col gap-3">
-      <div className="grid max-[414px]:grid-cols-1  grid-cols-2  justify-between gap-5">
+      <div className="grid max-[375px]:grid-cols-1  grid-cols-2  justify-between gap-5">
         <div className="bg-[#FFF7AC] flex relative  justify-between rounded-lg shadow-xl ">
           <p className="self-start relative top-1 left-2  text-black font-semibold md:text-2xl md:p-3">
             Gastronomia
@@ -16,7 +16,7 @@ export default function Cards() {
           <Image
             src={Group}
             alt="image group"
-            className="object-cover  max-[414px]:h-[100px]   rounded-e-lg"
+            className="object-cover   rounded-e-lg"
           />
         </div>
         <div className="bg-[#E0E3FF] flex flex-col  relative   justify-between rounded-lg shadow-xl  ">
@@ -31,12 +31,12 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className="grid max-[414px]:grid-cols-2 grid-cols-4 gap-3 ">
+      <div className="grid max-[375px]:grid-cols-2 grid-cols-4 gap-3 ">
         <div className="bg-[#CBA4FE] relative flex flex-col items-center justify-between rounded-lg shadow-xl">
           <Image
             src={Mala}
             alt="image mala"
-            className="relative max-[414px]:-bottom-2  -bottom-5"
+            className="relative max-[375px]:-bottom-2  -bottom-5"
           />
           <p className="w-full text-center py-1  object-cover text-black text-sm md:text-lg font-semibold bg-white rounded-b-lg">
             Turismo
@@ -47,7 +47,7 @@ export default function Cards() {
           <Image
             src={Bag}
             alt="image bag"
-            className=" relative  max-[414px]:-bottom-3  -bottom-4 flex-1 object-contain"
+            className=" relative  max-[375px]:-bottom-3  -bottom-4 flex-1 object-contain"
           />
           <p className="self-start w-full text-center py-1  text-black text-sm md:text-lg font-semibold bg-white rounded-b-lg">
             Compras
