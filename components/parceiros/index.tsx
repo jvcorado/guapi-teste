@@ -40,7 +40,7 @@ const Data: DataProps[] = [
 export default function Parceiros() {
   return (
     <>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[35%] md:text-2xl md:w-[30%]">
+      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[35%] md:text-2xl md:w-[30%] max-[370px]:w-[40%]">
         Parceiros <span className="text-[#FF6D1D]">Quack</span>
       </h1>
 
@@ -56,9 +56,14 @@ export default function Parceiros() {
           );
         })}
       </div>
-      <h1 className="text-black font-semibold border-b border-[#FF6D1D] w-[100%] md:text-2xl md:w-[80%]">
+      <h1 className=" max-[370px]:hidden block text-black font-semibold border-b border-[#FF6D1D] w-[100%] md:text-2xl md:w-[80%]">
         Estabelecimentos disponíveis no{" "}
         <span className="text-[#FF6D1D]">Clube Quack</span>
+      </h1>
+
+      <h1 className=" max-[370px]:block hidden text-black font-semibold border-b border-[#FF6D1D]  max-[370px]:w-[65%]">
+        Estabelecimentos <br /> disponíveis no
+        <span className="text-[#FF6D1D]"> Clube Quack</span>
       </h1>
     </>
   );
