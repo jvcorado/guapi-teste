@@ -55,7 +55,7 @@ export default function Lista() {
           return (
             <div
               key={index}
-              className="flex shadow-lg border items-center justify-between pe-5 gap-3 rounded-lg"
+              className="flex shadow-lg border items-center justify-between pe-5  rounded-lg"
             >
               <Image
                 src={item.image}
