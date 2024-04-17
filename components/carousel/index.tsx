@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import Elipse1 from "../../assets/image/carousel/Ellipse-1.svg";
+import Elipse1 from "../../assets/image/carousel/Ellipse-1.png";
 import Elipse2 from "../../assets/image/carousel/Ellipse-2.png";
 import Elipse3 from "../../assets/image/carousel/Ellipse-3.png";
 import Elipse4 from "../../assets/image/carousel/Ellipse-4.png";
@@ -20,26 +20,26 @@ const Data: DataProps[] = [
     image: Elipse3,
   },
   {
+    image: Elipse4,
+  },
+  {
+    image: Elipse5,
+  },
+  {
+    image: Elipse1,
+  },
+  {
+    image: Elipse2,
+  },
+  {
     image: Elipse3,
-  },
-  {
-    image: Elipse5,
-  },
-  {
-    image: Elipse5,
-  },
-  {
-    image: Elipse5,
-  },
-  {
-    image: Elipse5,
   },
 ];
 
 export default function Carousel() {
   return (
     <>
-      <div className="flex gap-4 p-2 w-full max-w-screen-sm overflow-x-auto scroll">
+      <div className="flex gap-4  w-full max-w-screen-sm overflow-x-auto scroll">
         {Data.map((item, index) => {
           return (
             <Image
