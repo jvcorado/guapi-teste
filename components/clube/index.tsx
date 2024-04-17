@@ -7,7 +7,7 @@ export default function Clube() {
       <div className="bg-[#FFA518] relative rounded-lg text-white flex items-center gap-3 justify-between px-3 md:p-5">
         <div className="flex-1">
           <p className="text-[10px] md:text-xl">Assine já o</p>
-          <p className="text-lg font-bold md:text-5xl">Clube Quack</p>
+          <p className="text-lg font-bold md:text-4xl">Clube Quack</p>
           <p className="text-[10px] leading-3 md:text-xl">
             e tenha acesso em dobro as experiências
           </p>
